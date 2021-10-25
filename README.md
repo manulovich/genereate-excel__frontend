@@ -2,7 +2,7 @@
 ## Описание
 Клиентская часть генерации таблицы. Весь код пиался только ради изучения возможности генерации и скачивания файлов.
 
-[Backend часть](https://github.com/manulovich/generate-exel-table__backend)
+[Backend часть](https://github.com/manulovich/genereate-excel__backend)
 
 ## Команды
 Установка зависимостей:
