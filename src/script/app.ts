@@ -47,7 +47,7 @@ btnCreateTable.addEventListener('click', () => {
 
 btnDownloadTable.addEventListener('click', () => {
     const content = { excelData: parseHtmlTable(document.querySelector('.work-area__table table')) || [] };
-    fetch('http://localhost:3000/excel', {
+    fetch('https://generate-excel.herokuapp.com/excel', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json;charset=utf-8'
