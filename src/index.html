@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons/table.png" type="image/png">
+    <link rel="stylesheet" href="./styles/style.scss">
+    <title>get exel</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <!-- select size -->
+                <div class="header__select-size">
+                    <label class="input-field header__select-size-field">
+                        <span class="input-field__label">Сетка: </span>
+                        <input type="text" name="ячеек по вертикали" class="input-field__input" id="input-field__input--x">
+                        x
+                        <input type="text" name="ячеек по горизонтали" class="input-field__input" id="input-field__input--y">
+                    </label>
+                </div>
+                <!-- btns -->
+                <div class="header__btns">
+                    <button class="btn header__btn" id="header__btn-create-table">создать</button>
+                    <button class="btn header__btn" id="header__btn-download-exel">скачать</button>
+                </div>
+            </div>
+        </header>
+        <main class="work-area">
+            <div class="container">
+                <div class="work-area__table"></table>
+            </div>
+        </main>
+    </div>
+    <script src="./script/app.ts"></script>
+</body>
+</html>
