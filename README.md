@@ -4,6 +4,8 @@
 
 [Backend часть](https://github.com/manulovich/genereate-excel__backend)
 
+[github pages](https://manulovich.github.io/genereate-excel__frontend/)
+
 ## Команды
 Установка зависимостей:
 ```bash
